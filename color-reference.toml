@@ -36,8 +36,7 @@ editor_background = $dark_gray
 
 selection_color = $gray
 
-ui_borders & light_badge_background = $red
-ui_alt_background = $darker_red
+button_color = $blue
 
 debug_background = $darkest_red
 
@@ -48,13 +47,13 @@ highlight4 = $vibrant_purple
 highlight5 = $vibrant_red
 highlight6 = $vibrant_orange
 
-keywords = $red
+keywords & tags = $red
 constants = $light_red
 punctuation & operators = $off_white
-classes & types = $blue
-enums & constants = $light_blue
-functions & methods = $green
-variables = $white
+classes & types & structs & interfaces = $blue
+enums & constants & string escapes = $light_blue
+functions & methods & attributes & constructors = $green
+variables & fields & properties = $white
 strings = $yellow
 numbers = $purple
 comment = $light_gray

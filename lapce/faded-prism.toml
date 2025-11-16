@@ -1,0 +1,222 @@
+#:schema https://raw.githubusercontent.com/lapce/lapce/refs/heads/master/extra/schemas/color-theme.json
+
+[color-theme]
+name = "Faded Prism"
+
+[ui]
+font-family = ""
+font-size = 13
+header-height = 35
+status-height = 25
+tab-min-width = 100
+activity-width = 50
+scroll-width = 10
+drop-shadow-width = 0
+
+[color-theme.base]
+# Grayscale
+white = "#d8d8d8"
+off_white = "#909090"
+light_gray = "#6c6c6c"
+gray = "#4d4d4d"
+dark_gray = "#252525"
+black = "#181818"
+# Diffs and diagnostics
+diff_red = "#ff3e3e"
+diff_yellow = "#ffea8a"
+diff_green = "#6eff69"
+error_red = "#ff3e3e"
+warning_yellow = "#ffd932"
+suggestion_blue = "#4fd6ff"
+# Pastel colors
+light_red = "#f7afaf"
+red = "#ff8d74"
+yellow = "#fffa9f"
+green = "#abff8d"
+blue = "#7bbdff"
+light_blue = "#b8e3ff"
+purple = "#f5c8ff"
+# Vibrant colors, used exclusively for bracket rainbows
+vibrant_yellow = "#fffd78"
+vibrant_green = "#6cffa4"
+vibrant_blue = "#628cff"
+vibrant_purple = "#e552ff"
+vibrant_red = "#ff4b90"
+vibrant_orange = "#ff915a"
+
+transparent = "#FFFFFF00"
+
+[color-theme.syntax]
+"comment" = "$light_gray"
+"constant" = "$light_red"
+"type" = "$blue"
+"typeAlias" = "$blue"
+"number" = "$purple"
+"enum" = "$light_blue"
+"struct" = "$blue"
+"structure" = "$blue"
+"interface" = "$blue"
+"attribute" = "$green"
+"constructor" = "$green"
+"function" = "$green"
+"method" = "$green"
+"function.method" = "$green"
+"keyword" = "$red"
+"selfKeyword" = "$red"
+"field" = "$white"
+"property" = "$white"
+"enumMember" = "$light_blue"
+"enum-member" = "$light_blue"
+"string" = "$yellow"
+"type.builtin" = "$blue"
+"builtinType" = "$blue"
+"escape" = "$light_blue"
+"string.escape" = "$light_blue"
+"embedded" = "$light_blue"
+"punctuation.delimiter" = "$off_white"
+"text.title" = "$red"
+"text.uri" = "$red"
+"text.reference" = "$red"
+"variable" = "$white"
+"variable.other.member" = "$white"
+"tag" = "$red"
+
+"markup.heading" = "$red"
+"markup.bold" = "$orange"
+"markup.italic" = "$orange"
+"markup.list" = "$orange"
+"markup.link.url" = "$blue"
+"markup.link.label" = "$purple"
+"markup.link.text" = "$purple"
+
+"bracket.color.1" = "$vibrant_yellow"
+"bracket.color.2" = "$vibrant_green"
+"bracket.color.3" = "$vibrant_blue"
+"bracket.unpaired" = "$off_white"
+
+[color-theme.ui]
+"lapce.error" = "$error_red"
+"lapce.warn" = "$warning_yellow"
+"lapce.dropdown_shadow" = "$transparent"
+"lapce.border" = "$transparent"
+"lapce.scroll_bar" = "$off_white"
+
+"lapce.button.primary.background" = "$blue"
+"lapce.button.primary.foreground" = "$black"
+
+# tab
+"lapce.tab.active.background" = "$dark_gray"
+"lapce.tab.active.foreground" = "$white"
+"lapce.tab.active.underline" = "$blue"
+
+"lapce.tab.inactive.background" = "$black"
+"lapce.tab.inactive.foreground" = "$white"
+"lapce.tab.inactive.underline" = "$dark_gray"
+
+"lapce.tab.separator" = ""
+
+"lapce.icon.active" = "$white"
+"lapce.icon.inactive" = "$off_white"
+
+"lapce.remote.icon" = "$black"
+"lapce.remote.local" = "$blue"
+"lapce.remote.connected" = "$green"
+"lapce.remote.connecting" = "$yellow"
+"lapce.remote.disconnected" = "$red"
+
+"lapce.plugin.name" = "$white"
+"lapce.plugin.description" = "$white"
+"lapce.plugin.author" = "$white"
+
+"editor.background" = "$dark_gray"
+"editor.foreground" = "$white"
+"editor.dim" = "$off_white"
+"editor.focus" = "$white"
+"editor.caret" = "$blue"
+"editor.selection" = "$gray"
+"editor.current_line" = "$dark_gray"
+"editor.debug_break_line" = "$gray"
+"editor.link" = "$blue"
+"editor.visible_whitespace" = "$light_gray"
+"editor.indent_guide" = "$light_gray"
+"editor.drag_drop_background" = "$light_gray"
+"editor.drag_drop_tab_background" = "$black"
+"editor.sticky_header_background" = "$dark_gray"
+
+"inlay_hint.foreground" = "$white"
+"inlay_hint.background" = "$black"
+
+"error_lens.error.foreground" = "$error_red"
+"error_lens.error.background" = "$black"
+"error_lens.warning.foreground" = "$warning_yellow"
+"error_lens.warning.background" = "$black"
+"error_lens.other.foreground" = "$suggestion_blue"
+"error_lens.other.background" = "$black"
+
+"completion_lens.foreground" = "$off_white"
+
+"source_control.added" = "$diff_green"
+"source_control.removed" = "$diff_red"
+"source_control.modified" = "$diff_yellow"
+
+"tooltip.background" = "$dark_gray"
+"tooltip.foreground" = "$white"
+
+"palette.background" = "$black"
+"palette.foreground" = "$white"
+"palette.current.background" = "$dark_gray"
+"palette.current.foreground" = "$white"
+"completion.background" = "$black"
+"completion.current" = "$dark_gray"
+
+"hover.background" = "$black"
+
+"activity.background" = "$black"
+"activity.current" = "$dark_gray"
+
+"debug.breakpoint" = "$diff_red"
+"debug.breakpoint.hover" = "$white"
+
+"panel.background" = "$black"
+"panel.foreground" = "$white"
+"panel.foreground.dim" = "$off_white"
+"panel.current.background" = "$dark_gray"
+"panel.current.foreground" = "$white"
+"panel.current.foreground.dim" = "$off_white"
+"panel.hovered.background" = "$gray"
+"panel.hovered.active.background" = "$off_white"
+"panel.hovered.foreground" = "$white"
+"panel.hovered.foreground.dim" = "$off_white"
+
+"status.background" = "$black"
+"status.foreground" = "$white"
+"status.modal.normal.background" = "$blue"
+"status.modal.normal.foreground" = "$black"
+"status.modal.insert.background" = "$red"
+"status.modal.insert.foreground" = "$black"
+"status.modal.visual.background" = "$yellow"
+"status.modal.visual.foreground" = "$black"
+"status.modal.terminal.background" = "$purple"
+"status.modal.terminal.foreground" = "$black"
+
+"markdown.blockquote" = "$off_white"
+
+"terminal.cursor" = "$white"
+"terminal.foreground" = "$white"
+"terminal.background" = "$black"
+"terminal.white" = "$white"
+"terminal.black" = "$gray"
+"terminal.red" = "$red"
+"terminal.blue" = "$blue"
+"terminal.green" = "$green"
+"terminal.yellow" = "$yellow"
+"terminal.cyan" = "$suggestion_blue"
+"terminal.magenta" = "$light_red"
+"terminal.bright_white" = "$white"
+"terminal.bright_red" = "$red"
+"terminal.bright_blue" = "$vibrant_blue"
+"terminal.bright_green" = "$vibrant_green"
+"terminal.bright_yellow" = "$vibrant_yellow"
+"terminal.bright_cyan" = "$light_blue"
+"terminal.bright_magenta" = "$vibrant_red"
+"terminal.bright_black" = "$gray"
