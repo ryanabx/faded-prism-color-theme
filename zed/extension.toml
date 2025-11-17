@@ -1,0 +1,7 @@
+id = "faded-prism-color-theme"
+name = "Faded Prism Color Theme"
+version = "1.2.0"
+schema_version = 1
+authors = ["Ryan Brue <ryanbrue.dev@gmail.com>"]
+description = "A faint pastel theme for Zed"
+repository = "https://github.com/ryanabx/faded-prism-color-theme"
