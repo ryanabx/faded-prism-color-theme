@@ -66,7 +66,8 @@
 				"storage.modifier",
 				"keyword",
 				"keyword.operator.wordlike",
-				"storage.type"
+				"storage.type",
+				"entity.name.section.markdown",
 			],
 			"settings": {
 				"foreground": "#ff8d74"
@@ -99,7 +100,8 @@
 				"entity.name.type",
 				"entity.other.inherited-class",
 				"support.class",
-				"support.type"
+				"support.type",
+				"variable.other.object"
 			],
 			"settings": {
 				"foreground": "#7bbdff" // "#a0f5ff"
@@ -153,7 +155,8 @@
 			"scope": [
 				"string",
 				"punctuation.definition.string",
-				"storage.type.string"
+				"storage.type.string",
+				"markup.inline.raw.string.markdown",
 			],
 			"settings": {
 				"foreground": "#fffa9f"
@@ -176,6 +179,35 @@
 			],
 			"settings": {
 				"foreground": "#6c6c6c"
+			}
+		},
+		// Markup
+		{
+			"name": "Strikethrough",
+			"scope": "markup.strikethrough",
+			"settings": {
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"name": "Italics",
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Bold",
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Bold Italic",
+			"scope": "markup.bold markup.italic",
+			"settings": {
+				"fontStyle": "bold italic"
 			}
 		},
 	]

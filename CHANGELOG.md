@@ -4,6 +4,13 @@ All notable changes to "faded-prism-theme" will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.2.0]
+
+- VSCode:
+    - Support markdown header colors
+    - Support markdown strikethrough, italics, bold
+    - Fix: Calling static functions will color the resulting object blue as it's supposed to.
+
 ## [1.1.1]
 
 - Fix: Made editor button blue (from gray)
