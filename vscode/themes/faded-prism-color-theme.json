@@ -98,6 +98,7 @@
 			"scope": [
 				"entity.name.class",
 				"entity.name.type",
+				"entity.name.namespace",
 				"entity.other.inherited-class",
 				"support.class",
 				"support.type",
@@ -110,7 +111,8 @@
 		{
 			"name": "Enum Member",
 			"scope": [
-				"variable.other.enummember"
+				"variable.other.enummember",
+				"entity.name.variable.enum-member",
 			],
 			"settings": {
 				"foreground": "#b8e3ff"
@@ -135,6 +137,7 @@
 				"variable.parameter",
 				"constant",
 				"meta.function-call.arguments",
+				"variable.other.object.property",
 			],
 			"settings": {
 				"foreground": "#d8d8d8"
