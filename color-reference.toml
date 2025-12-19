@@ -30,36 +30,36 @@ vibrant_red = "#ff4b90"
 vibrant_orange = "#ff915a"
 
 [colors]
-foreground = $white
-alt_background = $black
-editor_background = $dark_gray
+foreground = "$white"
+alt_background = "$black"
+editor_background = "$dark_gray"
 
-selection_color = $gray
+selection_color = "$gray"
 
-button_color = $blue
+button_color = "$blue"
 
-debug_background = $darkest_red
+debug_background = "$darkest_red"
 
-highlight1 = $vibrant_yellow
-highlight2 = $vibrant_green
-highlight3 = $vibrant_blue
-highlight4 = $vibrant_purple
-highlight5 = $vibrant_red
-highlight6 = $vibrant_orange
+highlight1 = "$vibrant_yellow"
+highlight2 = "$vibrant_green"
+highlight3 = "$vibrant_blue"
+highlight4 = "$vibrant_purple"
+highlight5 = "$vibrant_red"
+highlight6 = "$vibrant_orange"
 
-keywords & tags = $red
-constants = $light_red
-punctuation & operators = $off_white
-classes & types & structs & interfaces = $blue
-enums & constants & string escapes = $light_blue
-functions & methods & attributes & constructors = $green
-variables & fields & properties = $white
-strings = $yellow
-numbers = $purple
-comment = $off_white
+keywords_tags = "$red"
+constants = "$light_red"
+punctuation_operators = "$off_white"
+classes_types_structs_interfaces = "$blue"
+enums_constants_string_escapes = "$light_blue"
+functions_methods_attributes_constructors = "$green"
+variables_fields_properties = "$white"
+strings = "$yellow"
+numbers = "$purple"
+comment = "$off_white"
 
-warn = $warning_yellow
-error = $error_red
-suggestion = $suggestion_blue
-modified = $modified_yellow
-new = $new_green
+warn = "$warning_yellow"
+error = "$error_red"
+suggestion = "$suggestion_blue"
+modified = "$modified_yellow"
+new = "$new_green"
