@@ -42,10 +42,10 @@
             "color": "#f7afaf"
           },
           "comment": {
-            "color": "#6c6c6c"
+            "color": "#909090"
           },
           "comment.doc": {
-            "color": "#6c6c6c"
+            "color": "#909090"
           },
           "constant": {
             "color": "#b8e3ff"

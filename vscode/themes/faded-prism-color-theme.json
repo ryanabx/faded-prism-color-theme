@@ -178,7 +178,8 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#6c6c6c"
+				"foreground": "#909090",
+				"fontStyle": "italic"
 			}
 		},
 		// Markup

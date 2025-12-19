@@ -47,7 +47,7 @@ vibrant_orange = "#ff915a"
 transparent = "#FFFFFF00"
 
 [color-theme.syntax]
-"comment" = "$light_gray"
+"comment" = "$off_white"
 "constant" = "$light_red"
 "type" = "$blue"
 "typeAlias" = "$blue"

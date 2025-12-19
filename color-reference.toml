@@ -56,7 +56,7 @@ functions & methods & attributes & constructors = $green
 variables & fields & properties = $white
 strings = $yellow
 numbers = $purple
-comment = $light_gray
+comment = $off_white
 
 warn = $warning_yellow
 error = $error_red

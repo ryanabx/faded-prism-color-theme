@@ -1,7 +1,7 @@
 name = "faded-prism"
 display-name = "Faded Prism"
 description = "A faint pastel color theme for Lapce!"
-version = "1.2.0"
+version = "1.3.0"
 author = "Ryan Brue"
 repository = "https://github.com/ryanabx/faded-prism-color-theme"
 icon = "assets/fpct-small.svg"

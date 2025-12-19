@@ -7,7 +7,7 @@
 "namespace" = "white"
 "punctuation" = "off_white"
 "operator" = "off_white"
-"comment" = "light_gray"
+"comment" = { fg = "off_white", modifiers = ["italic"] }
 
 "keyword" = "red"
 "special" = "red"
