@@ -4,6 +4,11 @@ All notable changes to "faded-prism-theme" will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.3.1]
+
+- VSCode:
+    - Fix regression where some variables are blue
+
 ## [1.3.0]
 
 - Made comments `off_white` instead of `gray`
