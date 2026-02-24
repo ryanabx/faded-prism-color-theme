@@ -4,6 +4,10 @@ All notable changes to "faded-prism-theme" will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.4.0]
+
+- Change Dark Gray from #252525 to #1F1F1F
+
 ## [1.3.1]
 
 - VSCode:

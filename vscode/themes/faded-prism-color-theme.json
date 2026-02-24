@@ -10,7 +10,7 @@
 		"list.activeSelectionBackground": "#4d4d4d",
 		"editor.selectionBackground": "#4d4d4d",
 		// dark_gray
-		"editor.background": "#252525",
+		"editor.background": "#1f1f1f",
 		// black
 		"statusBar.background": "#181818",
 		"statusBar.noFolderBackground": "#181818",

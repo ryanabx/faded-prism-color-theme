@@ -4,7 +4,7 @@ white = "#d8d8d8"
 off_white = "#909090"
 light_gray = "#6c6c6c"
 gray = "#4d4d4d"
-dark_gray = "#252525"
+dark_gray = "#1f1f1f"
 black = "#181818"
 # Diffs and diagnostics
 diff_red = "#ff3e3e"
