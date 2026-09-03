@@ -4,6 +4,11 @@ All notable changes to "faded-prism-theme" will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.4.1]
+
+- Add `mid_gray` at `#303030`
+- Update Zed theme to use `mid_gray`
+
 ## [1.4.0]
 
 - Change Dark Gray from #252525 to #1F1F1F
